@@ -43,7 +43,7 @@ function App(props) {
   return (
     <React.Fragment>
       <LoginComponent getList={getList} />
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename="/">
         <Grid container direction="column" alignItems="center" justify="center">
           {loggedIn ? (
             <React.Fragment>
